@@ -1,6 +1,5 @@
 # CSS Arrow Please
 Generate the CSS for a tooltip arrow.
-Check it out at http://cssarrowplease.com
 
 ## Contributing
 You can simply open the public/index.html file in your browser
