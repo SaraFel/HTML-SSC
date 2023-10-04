@@ -1,7 +1,6 @@
 # CSS Arrow Please
 Generate the CSS for a tooltip arrow.
 
-## Contributing
 You can simply open the public/index.html file in your browser
 or start the development node app (not required): `node bin/server --development`
 
