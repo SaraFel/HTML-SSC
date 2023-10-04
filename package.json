@@ -1,0 +1,40 @@
+{
+  "name": "cssarrowplease",
+  "version": "0.2.2-19",
+  "author": {
+    "name": "Simon Højberg",
+    "email": "r.hackr@gmail.com"
+  },
+  "description": "Generate the CSS for a tooltip arrow",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hojberg/cssarrowplease.git"
+  },
+  "homepage": "http://cssarrowplease.com/",
+  "scripts": {
+    "build": "browserify -e app/main.js -o public/js/cssarrowplease.js",
+    "test": "mocha --require=test/test_helper.js"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "jsdom": "latest",
+    "mocha": "latest",
+    "chai": "latest",
+    "sinon": "latest",
+    "sinon-chai": "latest"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hojberg/cssarrowplease/raw/master/LICENSE"
+    }
+  ],
+  "subdomain": "cssarrowplease",
+  "domains": [
+    "cssarrowplease.com",
+    "www.cssarrowplease.com"
+  ]
+}
